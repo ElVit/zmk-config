@@ -1,0 +1,6 @@
+if SHIELD_XIAO_NUMPAD
+
+config ZMK_KEYBOARD_NAME
+  default "Xiao Numpad"
+
+endif

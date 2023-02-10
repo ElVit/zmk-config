@@ -1,0 +1,2 @@
+config SHIELD_XIAO_NUMPAD
+  def_boot $(shields_list_contains, xiao_numpad)
