@@ -1,0 +1,14 @@
+file_format: "1"
+id: xiao_numpad
+name: XIAO Numpad
+type: shield
+url: https://github.com/elvit/zmk-config-xiao_numpad
+description: Bluetooth wireless numpad
+requires:
+  - seeeduino_xiao_ble
+features:
+  - keys
+  - encoder
+outputs:
+  - usb
+  - ble
