@@ -6,7 +6,7 @@
     zmk,matrix_transform = &transform0;
   };
 
-  kscan0: kscan_0 {
+  kscan0: kscan {
     compatible = "zmk,kscan-gpio-matrix";
     label = "KSCAN";
     diode-direction = "col2row";
@@ -23,7 +23,7 @@
                 <&xiao_d  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
   };
 
-  transform0: matrix_transform_0 {
+  transform0: matrix_transform {
     compatible = "zmk,matrix-transform";
     rows = <4>;
     columns = <5>;
@@ -37,7 +37,7 @@
           >;
   };
 
-  encoder0: encoder_0 {
+  encoder0: encoder {
     compatible = "alps,ec11";
     label = "ENCODER";
     a-gpios = <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
