@@ -45,13 +45,13 @@
     resolution = <2>;
     status = "disabled";
   };
-  
+
   sensors {
-		compatible = "zmk,keymap-sensors";
-		sensors = <&encoder0>;
-	};
-	
-	&encoder0 {
+    compatible = "zmk,keymap-sensors";
+    sensors = <&encoder0>;
+  };
+
+  &encoder0 {
     status = "okay";
   };
 };
